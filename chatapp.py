@@ -10,6 +10,8 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
+
+
 load_dotenv()
 # os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
@@ -76,6 +78,17 @@ def user_input(user_question):
 
 
 def main():
+
+    # background_color = "#f0f0f0"  # You can replace this with your preferred color code
+    # custom_style = f"""
+    #     <style>
+    #         body {{
+    #             background-color: {background_color};
+    #         }}
+    #     </style>
+    # """
+    # st.markdown(custom_style, unsafe_allow_html=True)
+    
     st.set_page_config("MulDoc", page_icon = ":scroll:")
     st.header("MulDoc ")
 
