@@ -86,7 +86,7 @@ def main():
 
     with st.sidebar:
 
-        st.image("img/Robot.jpg")
+        # st.image("img/Robot.jpg")
         st.write("---")
         
         st.title("📁 PDF File's Section")
@@ -99,7 +99,7 @@ def main():
                 st.success("Done")
         
         st.write("---")
-        st.image("img/gkj.jpg")
+        # st.image("img/gkj.jpg")
         st.write("AI App created by @ Arbazkhan & Hamza")  # add this line to display the image
 
 
