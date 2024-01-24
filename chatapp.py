@@ -76,7 +76,7 @@ def user_input(user_question):
 
 
 def main():
-    st.set_page_config("Multi PDF Chatbot", page_icon = ":scroll:")
+    st.set_page_config("MulDoc", page_icon = ":scroll:")
     st.header("MulDoc ")
 
     user_question = st.text_input("Ask a Question from the PDF Files uploaded .. ✍️📝")
