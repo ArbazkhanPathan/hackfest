@@ -86,7 +86,7 @@ def main():
 
     with st.sidebar:
 
-        # st.image("img/Robot.jpg")
+        st.image("img/Robot.jpg")
         st.write("---")
         
         st.title("📁 PDF File's Section")
